@@ -3,15 +3,24 @@ body {
     margin: 0 auto;
 }
 
-.navbar {
-    background: #223a44;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.navbar ul {
+    list-style: none;
+    background: #80c4e0;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
     text-align: center;
-    padding: 1em;
-    /* margin-bottom: 1em; */
 }
 
 .link {
